@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section1 {
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.section2 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+ul{
+    list-style-position: outside;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .section1, .section2 {
+        width: 100%;
+    }
+}
+
+.download-button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+
+  <link rel="stylesheet" href="./css/resume.css">
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Builder</h1>
+    <form id="resumeForm">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="website">Website:</label>
+      <input type="url" id="website" name="website" required>
+
+      <!-- objective -->
+      <label for="objective">Objective:</label>
+      <input type="text" id="objective" name="objective" required>
+
+      <!-- education -->
+      <label for="education">Education:</label>
+      <input type="text" id="education" name="education"  placeholder="Degree" required>
+      
+      <label for="school">School:</label>
+      <input type="text" id="school" name="school"  placeholder="School Name" required>
+      
+      <label for="graduation">Graduation Year:</label>
+      <input type="date" id="graduation" name="graduation" required>
+
+      <!-- experience -->
+      <label for="experience">Experience:</label>
+      <input type="text" id="experience" name="experience" placeholder="Designation">
+      
+      <label for="company">Company Name:</label>
+      <input type="text" id="company" name="company" placeholder="Company Name">
+      
+      <label for="city">City Of Employment:</label>
+      <input type="text" id="city" name="city" placeholder="City">
+      
+      <label for="state">State Of Employment:</label>
+      <input type="text" id="state" name="state" placeholder="State">
+      
+      <label for="service">End Date Of Employment:</label>
+      <input type="month" id="service" name="service">
+
+      <!-- achievements -->
+      <label for="achievements">Achievements:</label>
+      <input type="text" id="achievements" name="achievements" required>
+      <input type="text" id="achievements2" name="achievements2" required>
+
+      <!-- skills -->
+      <label for="skills">Skills:</label>
+      <input type="text" id="skills" name="skills" required>
+      <input type="text" id="skills2" name="skills2" required>
+      <input type="text" id="skills3" name="skills3" required>
+      <input type="text" id="skills4" name="skills4" required>
+
+      <!-- certifications -->
+      <label for="certification">Certifications:</label>
+      <input type="text" id="certification" name="certification" required>
+      <input type="text" id="certification2" name="certification2" required>
+
+      <!-- languages -->
+      <label for="languages">Languages:</label>
+      <input type="text" id="languages" name="languages" required>
+      <input type="text" id="languages2" name="languages2" required>
+
+      <!-- interests -->
+      <label for="interest">Interests:</label>
+      <input type="text" id="interest" name="interest" required>
+      <input type="text" id="interest2" name="interest2" required>
+
+      <!-- option for template -->
+      <label>Choose Template :</label>
+      
+
+       
+      
+      <!-- Option for template -->
+      <div class="radio-container">
+        <input type="radio" id="templateOption" name="option" value="template" checked>
+        <label for="templateOption">Template1</label>
+      </div>
+
+      <!-- Option for resume -->
+      <div class="radio-container">
+        <input type="radio" id="resumeOption" name="option" value="resume">
+        <label for="resumeOption">Template2</label>
+      </div>
+
+
+      <button type="submit">Generate Resume & Export</button>
+    </form>
+  </div>
+
+  <script src="./js/resume.js"></script>
+</body>
+</html>

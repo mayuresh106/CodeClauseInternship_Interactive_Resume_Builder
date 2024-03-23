@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    background-color: #eff6fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: grid;
+    gap: 10px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="date"],
+  input[type="month"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .radio-container {
+    display: flex;
+    align-items: center;
+  }
+
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
